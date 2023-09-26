@@ -1,0 +1,35 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(126, 126, 126);
+}
+
+.flex-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.todo{
+    display: none;
+}
+.center{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 30px;
+}
+.container-table{
+    margin: 50px;
+}
